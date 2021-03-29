@@ -1,6 +1,7 @@
 ## Setup:
 1. run command: composer install
 2. create database and config .env file
+   php artisan key:generate
 3. run command: php artisan migrate:fresh --seed
 4. run command: php artisan serve
 
